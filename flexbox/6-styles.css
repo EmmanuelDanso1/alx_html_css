@@ -215,6 +215,7 @@
   }
   
   .nav {
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -226,8 +227,8 @@
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
-    margin: var(--nav-item-margin);
+    /* display: var(--nav-item-display); */
+    /* margin: var(--nav-item-margin); */
   }
   
   .nav .nav-link {
@@ -375,12 +376,7 @@
   .section-hero .section-inner {
     padding: 10rem 40rem 2rem 0;
   }
-
-/* Section Latest news ============================= */
-  .section-latest-news .row{
-    flex-direction: row-reverse;
-  }
-
+  
   /*** 4. CARD ***/
   
   /* Card (all styles)
