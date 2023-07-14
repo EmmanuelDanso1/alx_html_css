@@ -1,0 +1,1 @@
+This readme file focus on implementing a design from scratch which focus on how customers rate a design using star rating. It enables new members to register for them to be added to the page. Customers can aslso ask questions
